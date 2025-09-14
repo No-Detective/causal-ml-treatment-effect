@@ -78,4 +78,11 @@ This project implements an end-to-end **causal inference pipeline** to measure t
 - Cross-fitting for AIPW to reduce bias  
 - Probability calibration for random forest models  
 - Advanced CATE models (X-learner, R-learner)  
-- Interactive dashboard for decision makers  
+- Interactive dashboard for decision makers
+
+---
+
+## 📂 Dataset
+This project uses the [Uplift Modeling , Marketing Campaign Dataset](https://www.kaggle.com/datasets/arashnic/uplift-modeling)  
+(14M samples, ~340 MB zipped).  
+Due to size, the dataset is not included in this repository. Please download it manually and place it in the `data/` folder.
